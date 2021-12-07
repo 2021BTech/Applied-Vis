@@ -1,0 +1,17 @@
+
+  div{
+    border-radius: 30px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+  }
+div:hover{
+    transform: scale(1.1);
+}
